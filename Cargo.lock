@@ -322,6 +322,49 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "702fc72eb24e5a1e48ce58027a675bc24edd52096d5397d4aea7c6dd9eca0bd1"
 
 [[package]]
+name = "clia-oha-ws"
+version = "1.0.0"
+dependencies = [
+ "anyhow",
+ "assert_cmd",
+ "average",
+ "axum",
+ "base64",
+ "byte-unit",
+ "bytes",
+ "clap",
+ "crossterm",
+ "float-ord",
+ "flume",
+ "futures",
+ "hickory-resolver",
+ "http-body-util",
+ "humantime",
+ "hyper",
+ "hyper-util",
+ "jemallocator",
+ "lazy_static",
+ "libc",
+ "native-tls",
+ "pin-project-lite",
+ "rand",
+ "rand_regex",
+ "ratatui",
+ "regex",
+ "regex-syntax 0.7.5",
+ "rlimit",
+ "rustls",
+ "rustls-native-certs",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "tokio",
+ "tokio-native-tls",
+ "tokio-rustls",
+ "url",
+]
+
+[[package]]
 name = "colorchoice"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1041,49 +1084,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9cf5f9dd3933bd50a9e1f149ec995f39ae2c496d31fd772c1fd45ebc27e902b0"
 dependencies = [
  "memchr",
-]
-
-[[package]]
-name = "oha"
-version = "1.0.0"
-dependencies = [
- "anyhow",
- "assert_cmd",
- "average",
- "axum",
- "base64",
- "byte-unit",
- "bytes",
- "clap",
- "crossterm",
- "float-ord",
- "flume",
- "futures",
- "hickory-resolver",
- "http-body-util",
- "humantime",
- "hyper",
- "hyper-util",
- "jemallocator",
- "lazy_static",
- "libc",
- "native-tls",
- "pin-project-lite",
- "rand",
- "rand_regex",
- "ratatui",
- "regex",
- "regex-syntax 0.7.5",
- "rlimit",
- "rustls",
- "rustls-native-certs",
- "serde",
- "serde_json",
- "thiserror",
- "tokio",
- "tokio-native-tls",
- "tokio-rustls",
- "url",
 ]
 
 [[package]]

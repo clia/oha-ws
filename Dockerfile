@@ -9,6 +9,6 @@ RUN cargo install --path .
 FROM registry.fedoraproject.org/fedora-minimal
 USER 65535
 
-COPY --chown=65535:65535 --from=build /usr/local/cargo/bin/oha /bin/oha
+COPY --chown=65535:65535 --from=build /usr/local/cargo/bin/clia-oha-ws /bin/clia-oha-ws
 
-ENTRYPOINT ["/bin/oha"]
+ENTRYPOINT ["/bin/clia-oha-ws"]
